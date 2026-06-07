@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fffaf3;
+  color: #4b2e05;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6%;
+  background-color: #fff5e1;
+}
+
+.logo {
+  color: #d97706;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #8b5e1a;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #d97706;
+}
+
+/* Hero */
+  /* Hero Section */
+.hero {
+  background: linear-gradient(rgba(255, 140, 0, 0.85), rgba(255, 140, 0, 0.85)),
+              url("https://images.unsplash.com/photo-1604908177079-93d31b3664d1?auto=format&fit=crop&w=1200&q=80") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  border-radius: 15px;
+  margin: 20px auto;
+  max-width: 1100px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Hero button */
+.hero button {
+  background-color: #fff;
+  color: #b34700;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #ffd9b3;
+  transform: scale(1.05);
+}
+
+
+
+
+.hero h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+  font-size: 1.1rem;
+}
+
+* Hero button */
+.hero button {
+  background-color: #fff;
+  color: #b34700;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #ffd9b3;
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background: white;
+  color: #b45309;
+  padding: 0.8rem 1.6rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #fde68a;
+}
+
+/* How It Works */
+.how-it-works {
+  padding: 4rem 8%;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  color: #b45309;
+  margin-bottom: 2rem;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.step {
+  background: #fff;
+  border-radius: 15px;
+  padding: 2rem 1.5rem;
+  width: 280px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #d97706;
+  margin-bottom: 1rem;
+}
+
+/* Mission */
+.mission {
+  text-align: center;
+  padding: 4rem 8%;
+  background: #fff5e1;
+}
+
+.mission h2 {
+  color: #b45309;
+  margin-bottom: 1rem;
+}
+
+/* Donate Form */
+.donate-section {
+  text-align: center;
+  padding: 4rem 8%;
+}
+
+.donate-section h2 {
+  color: #b45309;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+input {
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 25px;
+  border: 1px solid #fcd34d;
+  outline: none;
+}
+
+/* Footer */
+footer {
+  background: #fff5e1;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  color: #8b5e1a;
+}
+
+.socials a {
+  color: #d97706;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #b45309;
+}
